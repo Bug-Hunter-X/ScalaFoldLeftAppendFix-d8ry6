@@ -1,0 +1,2 @@
+# Scala FoldLeft Pitfalls
+This example demonstrates a common mistake when using `foldLeft` in Scala: incorrect handling of the accumulator.  The first attempt wrongly adds list elements to an integer instead of a list, leading to unexpected results.  The correct version, and another example of accumulator importance are then shown.
